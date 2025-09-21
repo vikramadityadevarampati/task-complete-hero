@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# STEM LLM Assessment Platform
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/41a4543d-87a6-4302-a0d8-bcc9d43a962c
+**Description**: Professional assessment platform for evaluating large language model performance in STEM education
 
-## How can I edit this code?
+**Technology Stack**: React, TypeScript, Tailwind CSS, Vite
 
-There are several ways of editing your application.
+## Development Setup
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/41a4543d-87a6-4302-a0d8-bcc9d43a962c) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+### Getting Started
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd stem-llm-assessment-platform
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+stem-llm-assessment-platform/
+├── src/
+│   ├── components/          # Reusable UI components
+│   ├── pages/              # Application pages
+│   ├── assets/             # Static assets
+│   └── lib/                # Utility functions
+├── public/                 # Public assets
+└── package.json
+```
 
-**Use GitHub Codespaces**
+## Features
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Student Simulation**: Create authentic learning scenarios for ages 13-24
+- **Rubric Builder**: Design objective evaluation criteria with atomic measurements
+- **STEM Focus**: Mathematics, Physics, and Chemistry assessment templates
+- **Professional UI**: Clean, responsive design optimized for educational use
 
-## What technologies are used for this project?
+## Technology Stack
 
-This project is built with:
+- **Frontend**: React 18 with TypeScript
+- **Styling**: Tailwind CSS with custom design system
+- **Build Tool**: Vite for fast development and building
+- **UI Components**: Custom component library with shadcn/ui
+- **State Management**: React Query for server state management
+- **Routing**: React Router for navigation
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deployment
 
-## How can I deploy this project?
+The application can be deployed to any modern hosting platform that supports static sites:
 
-Simply open [Lovable](https://lovable.dev/projects/41a4543d-87a6-4302-a0d8-bcc9d43a962c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Vercel
+- Netlify  
+- AWS S3 + CloudFront
+- GitHub Pages
